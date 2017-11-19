@@ -1,4 +1,5 @@
 #include "Cat.h"
+#include <iostream>
 
 Cat::Cat(string m_name): Animal(m_name)
 {
@@ -8,7 +9,7 @@ Cat::~Cat()
 {
 }
 
-string Cat::whoIAm()
+void Cat::whoIAm()
 {
-	return "I'm a cat, and my name is " + name;
+	std::cout << "I'm a cat"<<endl;
 }

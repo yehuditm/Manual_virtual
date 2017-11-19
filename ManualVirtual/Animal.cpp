@@ -12,7 +12,7 @@ Animal::~Animal()
 {
 }
 
-string Animal::whoIAm()
+void Animal::whoIAm()
 {
-	return "I'm an animal, and my name is " + name;
+	std::cout << "I'm an animal"<<endl;
 }

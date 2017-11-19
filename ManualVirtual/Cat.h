@@ -5,7 +5,7 @@ class Cat : public Animal
 {
 public:
 	Cat(string m_name);
-	string whoIAm() override;
+	void whoIAm() override;
 	~Cat();
 };
 

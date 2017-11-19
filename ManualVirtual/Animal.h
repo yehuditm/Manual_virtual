@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <iostream>
 using namespace std;
 
 class Animal
@@ -10,6 +11,6 @@ protected:
 public:
 	Animal(string m_name);
 	~Animal();
-	virtual string whoIAm();
+	virtual void whoIAm();
 };
 
